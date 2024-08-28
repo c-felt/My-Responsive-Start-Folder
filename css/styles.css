@@ -399,12 +399,12 @@ body {
   height: 100%;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
-  color: #333;
+  color: #FF7F11;
 }
 
 #headerWrapper {
-  background-color: #abc;
-  color: #b47050;
+  background-color: #262626;
+  color: #ACBFA4;
 }
 
 header {
@@ -433,24 +433,25 @@ nav ul li {
   flex: 1;
 }
 nav ul li:hover {
-  background-color: bisque;
+  background-color: #E2E8CE;
 }
 nav li.active {
-  background-color: red;
+  background-color: #ACBFA4;
 }
 nav a {
   display: block;
   padding: 0.75rem;
-  color: white;
+  color: #262626;
   text-align: center;
   text-decoration: none;
 }
 nav a:hover {
-  color: green;
+  color: #FF7F11;
 }
 
 #footerWrapper {
-  background-color: yellow;
+  background-color: #262626;
+  color: #E2E8CE;
 }
 
 footer {

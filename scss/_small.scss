@@ -45,27 +45,28 @@ nav {
     li {
       flex: 1;
       &:hover {
-        background-color: #FF7F11;
+        background-color: #E2E8CE;
       }
     }
   }
   li.active {
-    background-color: #E2E8CE;
+    background-color: #ACBFA4;
   }
   a {
     display: block;
     padding: 0.75rem;
-    color: white;
+    color: #262626;
     text-align: center;
     text-decoration: none;
     &:hover {
-      color: green;
+      color: #FF7F11;
     }
   }
 }
 // The footer stuff below
 #footerWrapper {
-    background-color: red;
+    background-color: #262626;
+    color: #E2E8CE;
 }
 footer {
     padding: 0.5rem $gutter;
