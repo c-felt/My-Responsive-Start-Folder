@@ -420,7 +420,7 @@ header h1 {
 }
 
 #navWrapper {
-  background-color: gray;
+  background-color: #AEB4A9;
 }
 
 nav ul {
@@ -436,7 +436,7 @@ nav ul li:hover {
   background-color: #E2E8CE;
 }
 nav li.active {
-  background-color: #ACBFA4;
+  background-color: #FFD3A3;
 }
 nav a {
   display: block;
