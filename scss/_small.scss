@@ -19,7 +19,7 @@ body {
   color: $fontColor;
 }
 #headerWrapper {
-  background-color: #abc;
+  background-color: #262626;
   color: $secondaryColor;
 }
 header {
@@ -45,12 +45,12 @@ nav {
     li {
       flex: 1;
       &:hover {
-        background-color: bisque;
+        background-color: #FF7F11;
       }
     }
   }
   li.active {
-    background-color: red;
+    background-color: #E2E8CE;
   }
   a {
     display: block;
@@ -65,7 +65,7 @@ nav {
 }
 // The footer stuff below
 #footerWrapper {
-    background-color: yellow;
+    background-color: red;
 }
 footer {
     padding: 0.5rem $gutter;
