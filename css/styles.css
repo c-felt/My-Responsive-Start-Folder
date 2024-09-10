@@ -403,8 +403,11 @@ body {
 }
 
 #headerWrapper {
-  background-color: #262626;
+  background-color: #E4B7A0;
   color: #ACBFA4;
+  border: solid 3px #E4B7A0;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 header {
@@ -417,41 +420,39 @@ header h1 {
   margin: 0;
   font-size: 1.2rem;
   font-weight: 500;
+  color: #262626;
 }
 
 #navWrapper {
-  background-color: #AEB4A9;
+  background-color: #F6EEE0;
 }
 
 nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: flex;
 }
-nav ul li {
-  flex: 1;
+nav ul li a {
+  color: #262626;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem 16px;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.2);
 }
-nav ul li:hover {
-  background-color: #E2E8CE;
+nav ul li:last-child a {
+  border-bottom: none;
 }
 nav li.active {
   background-color: #FFD3A3;
 }
-nav a {
-  display: block;
-  padding: 0.75rem;
-  color: #262626;
-  text-align: center;
-  text-decoration: none;
-}
-nav a:hover {
-  color: #FF7F11;
-}
 
 #footerWrapper {
-  background-color: #262626;
+  background-color: #E4B7A0;
   color: #E2E8CE;
+  border: solid 3px #E4B7A0;
+  border-radius: 10px;
+  border-radius: 10px;
 }
 
 footer {
@@ -461,6 +462,7 @@ footer p {
   margin: 0;
   font-weight: 200;
   text-align: center;
+  color: #262626;
 }
 
 @media only screen and (min-width: 35rem) {
@@ -470,10 +472,28 @@ footer p {
   header h1 {
     font-size: 2rem;
   }
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  nav ul li a {
+    border: none;
+  }
+  nav ul li a:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-underline-offset: 3px;
+  }
 }
 @media only screen and (min-width: 60rem) {
   header, nav, main, footer {
     max-width: 60rem;
     margin: auto;
+  }
+  nav ul {
+    justify-content: flex-end;
+  }
+  ul li a {
+    padding: 0.4rem 1rem;
   }
 }
